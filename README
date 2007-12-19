@@ -5,8 +5,8 @@ environment.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  kdelibs4-3.5.7-1
-  qt3-3.3.8-1
+  kdelibs4-3.5.8-1
+  qt3-3.3.8-4
   tetex
 
 Build requirements:
@@ -15,7 +15,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.3.5-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
@@ -33,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack kile-1.9.3-X-src.tar.bz2
+  unpack kile-2.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kile-1.9.3-X.cygport all
+  cygport ./kile-2.0-X.cygport all
 
 This will create:
-  /usr/src/kile-1.9.3-X-src.tar.bz2
-  /usr/src/kile-1.9.3-X.tar.bz2
+  /usr/src/kile-2.0-X-src.tar.bz2
+  /usr/src/kile-2.0-X.tar.bz2
 
 -------------------------------------------
 
@@ -57,31 +57,72 @@ Files included in the binary package:
   /usr/share/apps/kconf_update/kile1.7_upd.pl
   /usr/share/apps/kconf_update/kile1.9-1_upd.pl
   /usr/share/apps/kconf_update/kile1.9_upd.pl
+  /usr/share/apps/kconf_update/kile2.0-1_upd.pl
+  /usr/share/apps/kconf_update/kile2.0-2_upd.pl
+  /usr/share/apps/kconf_update/kile2.0-3_upd.pl
+  /usr/share/apps/kconf_update/kile2.0-4_upd.pl
+  /usr/share/apps/kconf_update/kile2.0-5_upd.pl
   /usr/share/apps/kile/complete/abbreviation/example.cwl
   /usr/share/apps/kile/complete/dictionary/example.cwl
+  /usr/share/apps/kile/complete/dictionary/metapost.cwl
+  /usr/share/apps/kile/complete/tex/acronym.cwl
+  /usr/share/apps/kile/complete/tex/afterpage.cwl
+  /usr/share/apps/kile/complete/tex/amsbsy.cwl
+  /usr/share/apps/kile/complete/tex/amsfonts.cwl
   /usr/share/apps/kile/complete/tex/amsmath.cwl
+  /usr/share/apps/kile/complete/tex/amssymb.cwl
+  /usr/share/apps/kile/complete/tex/amsthm.cwl
   /usr/share/apps/kile/complete/tex/array.cwl
+  /usr/share/apps/kile/complete/tex/attachfile.cwl
+  /usr/share/apps/kile/complete/tex/beamerfoils.cwl
+  /usr/share/apps/kile/complete/tex/beamerprosper.cwl
+  /usr/share/apps/kile/complete/tex/beamerseminar.cwl
+  /usr/share/apps/kile/complete/tex/beamertexpower.cwl
   /usr/share/apps/kile/complete/tex/booktabs.cwl
   /usr/share/apps/kile/complete/tex/braket.cwl
+  /usr/share/apps/kile/complete/tex/calc.cwl
+  /usr/share/apps/kile/complete/tex/class-beamer.cwl
   /usr/share/apps/kile/complete/tex/class-letter.cwl
   /usr/share/apps/kile/complete/tex/class-scrartcl,scrreprt,scrbook.cwl
   /usr/share/apps/kile/complete/tex/class-scrlttr2.cwl
   /usr/share/apps/kile/complete/tex/color.cwl
+  /usr/share/apps/kile/complete/tex/colortbl.cwl
+  /usr/share/apps/kile/complete/tex/coordsys.cwl
+  /usr/share/apps/kile/complete/tex/currvita.cwl
+  /usr/share/apps/kile/complete/tex/cyrillic.cwl
+  /usr/share/apps/kile/complete/tex/diagxy.cwl
+  /usr/share/apps/kile/complete/tex/doi.cwl
   /usr/share/apps/kile/complete/tex/enumerate.cwl
   /usr/share/apps/kile/complete/tex/fancybox.cwl
   /usr/share/apps/kile/complete/tex/fancyhdr.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits-UF.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits-Uf.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits-base.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits-np.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits-per.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits-uf.cwl
+  /usr/share/apps/kile/complete/tex/fancyvrb.cwl
+  /usr/share/apps/kile/complete/tex/fontspec.cwl
+  /usr/share/apps/kile/complete/tex/graphicx.cwl
+  /usr/share/apps/kile/complete/tex/hyperref.cwl
+  /usr/share/apps/kile/complete/tex/ifthen.cwl
   /usr/share/apps/kile/complete/tex/import.cwl
+  /usr/share/apps/kile/complete/tex/jurabib.cwl
   /usr/share/apps/kile/complete/tex/latex-209.cwl
   /usr/share/apps/kile/complete/tex/latex-dev.cwl
   /usr/share/apps/kile/complete/tex/latex-document.cwl
   /usr/share/apps/kile/complete/tex/latex-l2tabu.cwl
   /usr/share/apps/kile/complete/tex/latex-mathsymbols.cwl
+  /usr/share/apps/kile/complete/tex/layout.cwl
   /usr/share/apps/kile/complete/tex/listings.cwl
+  /usr/share/apps/kile/complete/tex/logsys.cwl
   /usr/share/apps/kile/complete/tex/longtable.cwl
   /usr/share/apps/kile/complete/tex/lscape.cwl
+  /usr/share/apps/kile/complete/tex/manyfoot.cwl
   /usr/share/apps/kile/complete/tex/mdwlist.cwl
   /usr/share/apps/kile/complete/tex/multicol.cwl
   /usr/share/apps/kile/complete/tex/multido.cwl
+  /usr/share/apps/kile/complete/tex/pdfpages.cwl
   /usr/share/apps/kile/complete/tex/psfrag.cwl
   /usr/share/apps/kile/complete/tex/pst-3d.cwl
   /usr/share/apps/kile/complete/tex/pst-blur.cwl
@@ -94,6 +135,7 @@ Files included in the binary package:
   /usr/share/apps/kile/complete/tex/pst-text.cwl
   /usr/share/apps/kile/complete/tex/pst-tree.cwl
   /usr/share/apps/kile/complete/tex/pstricks.cwl
+  /usr/share/apps/kile/complete/tex/rotating.cwl
   /usr/share/apps/kile/complete/tex/scraddr.cwl
   /usr/share/apps/kile/complete/tex/scrdate.cwl
   /usr/share/apps/kile/complete/tex/scrlfile.cwl
@@ -106,6 +148,9 @@ Files included in the binary package:
   /usr/share/apps/kile/complete/tex/tex.cwl
   /usr/share/apps/kile/complete/tex/textcomp.cwl
   /usr/share/apps/kile/complete/tex/varioref.cwl
+  /usr/share/apps/kile/complete/tex/verse.cwl
+  /usr/share/apps/kile/complete/tex/xifthen.cwl
+  /usr/share/apps/kile/complete/tex/xltxtra.cwl
   /usr/share/apps/kile/complete/tex/xtab.cwl
   /usr/share/apps/kile/docpartui.rc
   /usr/share/apps/kile/encodings/cp1250.enc
@@ -119,30 +164,36 @@ Files included in the binary package:
   /usr/share/apps/kile/help/latex-kile.lst
   /usr/share/apps/kile/help/latex-tetex.lst
   /usr/share/apps/kile/help/latex-tetex3.lst
+  /usr/share/apps/kile/help/latex-texlive-3.9.lst
   /usr/share/apps/kile/icons/hicolor/16x16/actions/acute.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/bar.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/beamerblock.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/beamerframe.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/binom.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/breve.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/chapter.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/check.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/closeallenv.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/closeenv.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/closegroup.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/complete1.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/complete2.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/complete3.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/configure_kile.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/configure_project.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/ddot.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/delenv_i.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/delenv_o.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/deleol.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/delete.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/delgroup_i.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/delgroup_o.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/delline.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/delmath.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/delpar.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/delword.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/description.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/dot.png
-  /usr/share/apps/kile/icons/hicolor/16x16/actions/emph.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/enumerate.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/eqnarray.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/equation.png
@@ -157,43 +208,58 @@ Files included in the binary package:
   /usr/share/apps/kile/icons/hicolor/16x16/actions/include.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/item.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/itemize.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/js.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/label.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/masteritem.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/matchenv.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/matchgroup.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/math0.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/math1.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/math10.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/math2.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/math3.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/math4.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/math5.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/math6.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/math7.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/math8.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/math9.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/mathmode.png
-  /usr/share/apps/kile/icons/hicolor/16x16/actions/metapost.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/minipage.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/nextbullet.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/nextparagraph.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/nextsection.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/nroot.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/part.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/prevbullet.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/prevparagraph.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/prevsection.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/projectitem.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/refreshstructure.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/relation.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/scriptnew.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/scriptopen.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/section.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/selenv_i.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/selenv_o.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/selgroup_i.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/selgroup_o.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/selline.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/selmath.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/selpar.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/selword.png
-  /usr/share/apps/kile/icons/hicolor/16x16/actions/slanted.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/smallfrac.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/structure.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/subsection.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/subsubsection.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/tilde.png
-  /usr/share/apps/kile/icons/hicolor/16x16/actions/typewriter.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/vec.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/verb.png
   /usr/share/apps/kile/icons/hicolor/16x16/actions/verbatim.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/viewdvi.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/viewhtml.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/viewpdf.png
+  /usr/share/apps/kile/icons/hicolor/16x16/actions/viewps.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/array.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/bboxnext.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/bboxprev.png
@@ -203,43 +269,44 @@ Files included in the binary package:
   /usr/share/apps/kile/icons/hicolor/22x22/actions/complete2.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/complete3.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/configure_kile.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/configure_project.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/convert.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/description.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/dfrac.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/displaymathmode.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/dvipdf.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/dvips.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/dvisearch.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/emph.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/enumerate.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/eqnarray.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/equation.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/errornext.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/errorprev.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/filegrep.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/hline.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/item.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/itemize.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/l2h.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/js.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/jspage.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/label.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/latex.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/makeidx.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/master.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/minipage.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/mpost.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/multicolumn.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/newline.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/nroot.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/output_win.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/pdflatex.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/preview_env.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/preview_sel.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/preview_subdoc.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/project_add.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/project_remove.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/project_show.png
-  /usr/share/apps/kile/icons/hicolor/22x22/actions/ps2pdf.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/projectgrep.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/quick.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/quickwizard.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/refreshstructure.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/scriptnew.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/scriptopen.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/slanted.png
+  /usr/share/apps/kile/icons/hicolor/22x22/actions/strong.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/tabbing.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/tabular.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/typewriter.png
@@ -261,618 +328,1035 @@ Files included in the binary package:
   /usr/share/apps/kile/icons/hicolor/22x22/actions/wizard_tabbing.png
   /usr/share/apps/kile/icons/hicolor/22x22/actions/wizard_tabular.png
   /usr/share/apps/kile/icons/hicolor/32x32/actions/bibtex.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/dblatex.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/dvipdf.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/dvipng.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/dvips.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/dvisearch.png
   /usr/share/apps/kile/icons/hicolor/32x32/actions/environment.png
-  /usr/share/apps/kile/icons/hicolor/32x32/actions/usertool.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/js.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/l2h.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/latex.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/lilypond.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/makeidx.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/mpost.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/pdflatex.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/pdftex.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/ps2pdf.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/scriptnew.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/scriptopen.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/texcompiler.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/viewbib.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/viewdvi.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/viewhtml.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/viewpdf.png
+  /usr/share/apps/kile/icons/hicolor/32x32/actions/viewps.png
+  /usr/share/apps/kile/icons/hicolor/48x48/actions/graphicspage.png
   /usr/share/apps/kile/icons/hicolor/64x64/actions/preview.png
   /usr/share/apps/kile/kilestdtools.rc
   /usr/share/apps/kile/kileui.rc
-  /usr/share/apps/kile/mathsymbols/img1.png
-  /usr/share/apps/kile/mathsymbols/img10.png
-  /usr/share/apps/kile/mathsymbols/img100.png
-  /usr/share/apps/kile/mathsymbols/img100special.png
-  /usr/share/apps/kile/mathsymbols/img101.png
-  /usr/share/apps/kile/mathsymbols/img101special.png
-  /usr/share/apps/kile/mathsymbols/img102.png
-  /usr/share/apps/kile/mathsymbols/img102special.png
-  /usr/share/apps/kile/mathsymbols/img103.png
-  /usr/share/apps/kile/mathsymbols/img103special.png
-  /usr/share/apps/kile/mathsymbols/img104.png
-  /usr/share/apps/kile/mathsymbols/img104special.png
-  /usr/share/apps/kile/mathsymbols/img105.png
-  /usr/share/apps/kile/mathsymbols/img105special.png
-  /usr/share/apps/kile/mathsymbols/img106.png
-  /usr/share/apps/kile/mathsymbols/img106special.png
-  /usr/share/apps/kile/mathsymbols/img107.png
-  /usr/share/apps/kile/mathsymbols/img107special.png
-  /usr/share/apps/kile/mathsymbols/img108.png
-  /usr/share/apps/kile/mathsymbols/img108special.png
-  /usr/share/apps/kile/mathsymbols/img109.png
-  /usr/share/apps/kile/mathsymbols/img109special.png
-  /usr/share/apps/kile/mathsymbols/img10greek.png
-  /usr/share/apps/kile/mathsymbols/img10special.png
-  /usr/share/apps/kile/mathsymbols/img11.png
-  /usr/share/apps/kile/mathsymbols/img110.png
-  /usr/share/apps/kile/mathsymbols/img110special.png
-  /usr/share/apps/kile/mathsymbols/img111.png
-  /usr/share/apps/kile/mathsymbols/img111special.png
-  /usr/share/apps/kile/mathsymbols/img112.png
-  /usr/share/apps/kile/mathsymbols/img112special.png
-  /usr/share/apps/kile/mathsymbols/img113.png
-  /usr/share/apps/kile/mathsymbols/img113special.png
-  /usr/share/apps/kile/mathsymbols/img114.png
-  /usr/share/apps/kile/mathsymbols/img114special.png
-  /usr/share/apps/kile/mathsymbols/img115.png
-  /usr/share/apps/kile/mathsymbols/img115special.png
-  /usr/share/apps/kile/mathsymbols/img116.png
-  /usr/share/apps/kile/mathsymbols/img116special.png
-  /usr/share/apps/kile/mathsymbols/img117.png
-  /usr/share/apps/kile/mathsymbols/img117special.png
-  /usr/share/apps/kile/mathsymbols/img118.png
-  /usr/share/apps/kile/mathsymbols/img118special.png
-  /usr/share/apps/kile/mathsymbols/img119.png
-  /usr/share/apps/kile/mathsymbols/img119special.png
-  /usr/share/apps/kile/mathsymbols/img11greek.png
-  /usr/share/apps/kile/mathsymbols/img11special.png
-  /usr/share/apps/kile/mathsymbols/img12.png
-  /usr/share/apps/kile/mathsymbols/img120.png
-  /usr/share/apps/kile/mathsymbols/img120special.png
-  /usr/share/apps/kile/mathsymbols/img121.png
-  /usr/share/apps/kile/mathsymbols/img121special.png
-  /usr/share/apps/kile/mathsymbols/img122.png
-  /usr/share/apps/kile/mathsymbols/img122special.png
-  /usr/share/apps/kile/mathsymbols/img123.png
-  /usr/share/apps/kile/mathsymbols/img123special.png
-  /usr/share/apps/kile/mathsymbols/img124.png
-  /usr/share/apps/kile/mathsymbols/img124special.png
-  /usr/share/apps/kile/mathsymbols/img125.png
-  /usr/share/apps/kile/mathsymbols/img125special.png
-  /usr/share/apps/kile/mathsymbols/img126.png
-  /usr/share/apps/kile/mathsymbols/img126special.png
-  /usr/share/apps/kile/mathsymbols/img127.png
-  /usr/share/apps/kile/mathsymbols/img127special.png
-  /usr/share/apps/kile/mathsymbols/img128.png
-  /usr/share/apps/kile/mathsymbols/img128special.png
-  /usr/share/apps/kile/mathsymbols/img129.png
-  /usr/share/apps/kile/mathsymbols/img129special.png
-  /usr/share/apps/kile/mathsymbols/img12greek.png
-  /usr/share/apps/kile/mathsymbols/img12special.png
-  /usr/share/apps/kile/mathsymbols/img13.png
-  /usr/share/apps/kile/mathsymbols/img130.png
-  /usr/share/apps/kile/mathsymbols/img130special.png
-  /usr/share/apps/kile/mathsymbols/img131.png
-  /usr/share/apps/kile/mathsymbols/img131special.png
-  /usr/share/apps/kile/mathsymbols/img132.png
-  /usr/share/apps/kile/mathsymbols/img132special.png
-  /usr/share/apps/kile/mathsymbols/img133.png
-  /usr/share/apps/kile/mathsymbols/img133special.png
-  /usr/share/apps/kile/mathsymbols/img134.png
-  /usr/share/apps/kile/mathsymbols/img134special.png
-  /usr/share/apps/kile/mathsymbols/img135.png
-  /usr/share/apps/kile/mathsymbols/img135special.png
-  /usr/share/apps/kile/mathsymbols/img136.png
-  /usr/share/apps/kile/mathsymbols/img136special.png
-  /usr/share/apps/kile/mathsymbols/img137.png
-  /usr/share/apps/kile/mathsymbols/img137special.png
-  /usr/share/apps/kile/mathsymbols/img138.png
-  /usr/share/apps/kile/mathsymbols/img138special.png
-  /usr/share/apps/kile/mathsymbols/img139.png
-  /usr/share/apps/kile/mathsymbols/img139special.png
-  /usr/share/apps/kile/mathsymbols/img13greek.png
-  /usr/share/apps/kile/mathsymbols/img13special.png
-  /usr/share/apps/kile/mathsymbols/img14.png
-  /usr/share/apps/kile/mathsymbols/img140.png
-  /usr/share/apps/kile/mathsymbols/img140special.png
-  /usr/share/apps/kile/mathsymbols/img141.png
-  /usr/share/apps/kile/mathsymbols/img141special.png
-  /usr/share/apps/kile/mathsymbols/img142.png
-  /usr/share/apps/kile/mathsymbols/img142special.png
-  /usr/share/apps/kile/mathsymbols/img143.png
-  /usr/share/apps/kile/mathsymbols/img143special.png
-  /usr/share/apps/kile/mathsymbols/img144.png
-  /usr/share/apps/kile/mathsymbols/img144special.png
-  /usr/share/apps/kile/mathsymbols/img145.png
-  /usr/share/apps/kile/mathsymbols/img145special.png
-  /usr/share/apps/kile/mathsymbols/img146.png
-  /usr/share/apps/kile/mathsymbols/img146special.png
-  /usr/share/apps/kile/mathsymbols/img147.png
-  /usr/share/apps/kile/mathsymbols/img147special.png
-  /usr/share/apps/kile/mathsymbols/img148.png
-  /usr/share/apps/kile/mathsymbols/img148special.png
-  /usr/share/apps/kile/mathsymbols/img149.png
-  /usr/share/apps/kile/mathsymbols/img149special.png
-  /usr/share/apps/kile/mathsymbols/img14greek.png
-  /usr/share/apps/kile/mathsymbols/img14special.png
-  /usr/share/apps/kile/mathsymbols/img15.png
-  /usr/share/apps/kile/mathsymbols/img150.png
-  /usr/share/apps/kile/mathsymbols/img150special.png
-  /usr/share/apps/kile/mathsymbols/img151.png
-  /usr/share/apps/kile/mathsymbols/img151special.png
-  /usr/share/apps/kile/mathsymbols/img152.png
-  /usr/share/apps/kile/mathsymbols/img152special.png
-  /usr/share/apps/kile/mathsymbols/img153.png
-  /usr/share/apps/kile/mathsymbols/img153special.png
-  /usr/share/apps/kile/mathsymbols/img154.png
-  /usr/share/apps/kile/mathsymbols/img154special.png
-  /usr/share/apps/kile/mathsymbols/img155.png
-  /usr/share/apps/kile/mathsymbols/img155special.png
-  /usr/share/apps/kile/mathsymbols/img156.png
-  /usr/share/apps/kile/mathsymbols/img156special.png
-  /usr/share/apps/kile/mathsymbols/img157.png
-  /usr/share/apps/kile/mathsymbols/img157special.png
-  /usr/share/apps/kile/mathsymbols/img158.png
-  /usr/share/apps/kile/mathsymbols/img158special.png
-  /usr/share/apps/kile/mathsymbols/img159.png
-  /usr/share/apps/kile/mathsymbols/img159special.png
-  /usr/share/apps/kile/mathsymbols/img15greek.png
-  /usr/share/apps/kile/mathsymbols/img15special.png
-  /usr/share/apps/kile/mathsymbols/img16.png
-  /usr/share/apps/kile/mathsymbols/img160.png
-  /usr/share/apps/kile/mathsymbols/img160special.png
-  /usr/share/apps/kile/mathsymbols/img161.png
-  /usr/share/apps/kile/mathsymbols/img161special.png
-  /usr/share/apps/kile/mathsymbols/img162.png
-  /usr/share/apps/kile/mathsymbols/img162special.png
-  /usr/share/apps/kile/mathsymbols/img163.png
-  /usr/share/apps/kile/mathsymbols/img163special.png
-  /usr/share/apps/kile/mathsymbols/img164.png
-  /usr/share/apps/kile/mathsymbols/img164special.png
-  /usr/share/apps/kile/mathsymbols/img165.png
-  /usr/share/apps/kile/mathsymbols/img165special.png
-  /usr/share/apps/kile/mathsymbols/img166.png
-  /usr/share/apps/kile/mathsymbols/img166special.png
-  /usr/share/apps/kile/mathsymbols/img167.png
-  /usr/share/apps/kile/mathsymbols/img167special.png
-  /usr/share/apps/kile/mathsymbols/img168.png
-  /usr/share/apps/kile/mathsymbols/img168special.png
-  /usr/share/apps/kile/mathsymbols/img169.png
-  /usr/share/apps/kile/mathsymbols/img169special.png
-  /usr/share/apps/kile/mathsymbols/img16greek.png
-  /usr/share/apps/kile/mathsymbols/img16special.png
-  /usr/share/apps/kile/mathsymbols/img17.png
-  /usr/share/apps/kile/mathsymbols/img170.png
-  /usr/share/apps/kile/mathsymbols/img171.png
-  /usr/share/apps/kile/mathsymbols/img172.png
-  /usr/share/apps/kile/mathsymbols/img173.png
-  /usr/share/apps/kile/mathsymbols/img174.png
-  /usr/share/apps/kile/mathsymbols/img175.png
-  /usr/share/apps/kile/mathsymbols/img176.png
-  /usr/share/apps/kile/mathsymbols/img177.png
-  /usr/share/apps/kile/mathsymbols/img178.png
-  /usr/share/apps/kile/mathsymbols/img179.png
-  /usr/share/apps/kile/mathsymbols/img17greek.png
-  /usr/share/apps/kile/mathsymbols/img17special.png
-  /usr/share/apps/kile/mathsymbols/img18.png
-  /usr/share/apps/kile/mathsymbols/img180.png
-  /usr/share/apps/kile/mathsymbols/img181.png
-  /usr/share/apps/kile/mathsymbols/img182.png
-  /usr/share/apps/kile/mathsymbols/img183.png
-  /usr/share/apps/kile/mathsymbols/img184.png
-  /usr/share/apps/kile/mathsymbols/img185.png
-  /usr/share/apps/kile/mathsymbols/img186.png
-  /usr/share/apps/kile/mathsymbols/img187.png
-  /usr/share/apps/kile/mathsymbols/img188.png
-  /usr/share/apps/kile/mathsymbols/img189.png
-  /usr/share/apps/kile/mathsymbols/img18greek.png
-  /usr/share/apps/kile/mathsymbols/img18special.png
-  /usr/share/apps/kile/mathsymbols/img19.png
-  /usr/share/apps/kile/mathsymbols/img190.png
-  /usr/share/apps/kile/mathsymbols/img191.png
-  /usr/share/apps/kile/mathsymbols/img192.png
-  /usr/share/apps/kile/mathsymbols/img193.png
-  /usr/share/apps/kile/mathsymbols/img194.png
-  /usr/share/apps/kile/mathsymbols/img195.png
-  /usr/share/apps/kile/mathsymbols/img196.png
-  /usr/share/apps/kile/mathsymbols/img197.png
-  /usr/share/apps/kile/mathsymbols/img198.png
-  /usr/share/apps/kile/mathsymbols/img199.png
-  /usr/share/apps/kile/mathsymbols/img19greek.png
-  /usr/share/apps/kile/mathsymbols/img19special.png
-  /usr/share/apps/kile/mathsymbols/img1greek.png
-  /usr/share/apps/kile/mathsymbols/img1special.png
-  /usr/share/apps/kile/mathsymbols/img2.png
-  /usr/share/apps/kile/mathsymbols/img20.png
-  /usr/share/apps/kile/mathsymbols/img200.png
-  /usr/share/apps/kile/mathsymbols/img201.png
-  /usr/share/apps/kile/mathsymbols/img202.png
-  /usr/share/apps/kile/mathsymbols/img203.png
-  /usr/share/apps/kile/mathsymbols/img204.png
-  /usr/share/apps/kile/mathsymbols/img205.png
-  /usr/share/apps/kile/mathsymbols/img206.png
-  /usr/share/apps/kile/mathsymbols/img207.png
-  /usr/share/apps/kile/mathsymbols/img208.png
-  /usr/share/apps/kile/mathsymbols/img209.png
-  /usr/share/apps/kile/mathsymbols/img20greek.png
-  /usr/share/apps/kile/mathsymbols/img20special.png
-  /usr/share/apps/kile/mathsymbols/img21.png
-  /usr/share/apps/kile/mathsymbols/img210.png
-  /usr/share/apps/kile/mathsymbols/img211.png
-  /usr/share/apps/kile/mathsymbols/img212.png
-  /usr/share/apps/kile/mathsymbols/img213.png
-  /usr/share/apps/kile/mathsymbols/img214.png
-  /usr/share/apps/kile/mathsymbols/img215.png
-  /usr/share/apps/kile/mathsymbols/img216.png
-  /usr/share/apps/kile/mathsymbols/img217.png
-  /usr/share/apps/kile/mathsymbols/img218.png
-  /usr/share/apps/kile/mathsymbols/img219.png
-  /usr/share/apps/kile/mathsymbols/img21greek.png
-  /usr/share/apps/kile/mathsymbols/img21special.png
-  /usr/share/apps/kile/mathsymbols/img22.png
-  /usr/share/apps/kile/mathsymbols/img220.png
-  /usr/share/apps/kile/mathsymbols/img221.png
-  /usr/share/apps/kile/mathsymbols/img222.png
-  /usr/share/apps/kile/mathsymbols/img223.png
-  /usr/share/apps/kile/mathsymbols/img224.png
-  /usr/share/apps/kile/mathsymbols/img225.png
-  /usr/share/apps/kile/mathsymbols/img226.png
-  /usr/share/apps/kile/mathsymbols/img227.png
-  /usr/share/apps/kile/mathsymbols/img228.png
-  /usr/share/apps/kile/mathsymbols/img229.png
-  /usr/share/apps/kile/mathsymbols/img22greek.png
-  /usr/share/apps/kile/mathsymbols/img22special.png
-  /usr/share/apps/kile/mathsymbols/img23.png
-  /usr/share/apps/kile/mathsymbols/img230.png
-  /usr/share/apps/kile/mathsymbols/img231.png
-  /usr/share/apps/kile/mathsymbols/img232.png
-  /usr/share/apps/kile/mathsymbols/img233.png
-  /usr/share/apps/kile/mathsymbols/img234.png
-  /usr/share/apps/kile/mathsymbols/img235.png
-  /usr/share/apps/kile/mathsymbols/img236.png
-  /usr/share/apps/kile/mathsymbols/img237.png
-  /usr/share/apps/kile/mathsymbols/img238.png
-  /usr/share/apps/kile/mathsymbols/img239.png
-  /usr/share/apps/kile/mathsymbols/img23greek.png
-  /usr/share/apps/kile/mathsymbols/img23special.png
-  /usr/share/apps/kile/mathsymbols/img24.png
-  /usr/share/apps/kile/mathsymbols/img240.png
-  /usr/share/apps/kile/mathsymbols/img241.png
-  /usr/share/apps/kile/mathsymbols/img242.png
-  /usr/share/apps/kile/mathsymbols/img243.png
-  /usr/share/apps/kile/mathsymbols/img244.png
-  /usr/share/apps/kile/mathsymbols/img245.png
-  /usr/share/apps/kile/mathsymbols/img246.png
-  /usr/share/apps/kile/mathsymbols/img247.png
-  /usr/share/apps/kile/mathsymbols/img248.png
-  /usr/share/apps/kile/mathsymbols/img249.png
-  /usr/share/apps/kile/mathsymbols/img24greek.png
-  /usr/share/apps/kile/mathsymbols/img24special.png
-  /usr/share/apps/kile/mathsymbols/img25.png
-  /usr/share/apps/kile/mathsymbols/img250.png
-  /usr/share/apps/kile/mathsymbols/img251.png
-  /usr/share/apps/kile/mathsymbols/img252.png
-  /usr/share/apps/kile/mathsymbols/img253.png
-  /usr/share/apps/kile/mathsymbols/img254.png
-  /usr/share/apps/kile/mathsymbols/img255.png
-  /usr/share/apps/kile/mathsymbols/img256.png
-  /usr/share/apps/kile/mathsymbols/img257.png
-  /usr/share/apps/kile/mathsymbols/img258.png
-  /usr/share/apps/kile/mathsymbols/img259.png
-  /usr/share/apps/kile/mathsymbols/img25greek.png
-  /usr/share/apps/kile/mathsymbols/img25special.png
-  /usr/share/apps/kile/mathsymbols/img26.png
-  /usr/share/apps/kile/mathsymbols/img260.png
-  /usr/share/apps/kile/mathsymbols/img261.png
-  /usr/share/apps/kile/mathsymbols/img262.png
-  /usr/share/apps/kile/mathsymbols/img263.png
-  /usr/share/apps/kile/mathsymbols/img264.png
-  /usr/share/apps/kile/mathsymbols/img265.png
-  /usr/share/apps/kile/mathsymbols/img266.png
-  /usr/share/apps/kile/mathsymbols/img267.png
-  /usr/share/apps/kile/mathsymbols/img268.png
-  /usr/share/apps/kile/mathsymbols/img269.png
-  /usr/share/apps/kile/mathsymbols/img26greek.png
-  /usr/share/apps/kile/mathsymbols/img26special.png
-  /usr/share/apps/kile/mathsymbols/img27.png
-  /usr/share/apps/kile/mathsymbols/img270.png
-  /usr/share/apps/kile/mathsymbols/img271.png
-  /usr/share/apps/kile/mathsymbols/img272.png
-  /usr/share/apps/kile/mathsymbols/img273.png
-  /usr/share/apps/kile/mathsymbols/img274.png
-  /usr/share/apps/kile/mathsymbols/img275.png
-  /usr/share/apps/kile/mathsymbols/img276.png
-  /usr/share/apps/kile/mathsymbols/img277.png
-  /usr/share/apps/kile/mathsymbols/img278.png
-  /usr/share/apps/kile/mathsymbols/img279.png
-  /usr/share/apps/kile/mathsymbols/img27greek.png
-  /usr/share/apps/kile/mathsymbols/img27special.png
-  /usr/share/apps/kile/mathsymbols/img28.png
-  /usr/share/apps/kile/mathsymbols/img280.png
-  /usr/share/apps/kile/mathsymbols/img281.png
-  /usr/share/apps/kile/mathsymbols/img282.png
-  /usr/share/apps/kile/mathsymbols/img283.png
-  /usr/share/apps/kile/mathsymbols/img284.png
-  /usr/share/apps/kile/mathsymbols/img285.png
-  /usr/share/apps/kile/mathsymbols/img286.png
-  /usr/share/apps/kile/mathsymbols/img287.png
-  /usr/share/apps/kile/mathsymbols/img288.png
-  /usr/share/apps/kile/mathsymbols/img289.png
-  /usr/share/apps/kile/mathsymbols/img28greek.png
-  /usr/share/apps/kile/mathsymbols/img28special.png
-  /usr/share/apps/kile/mathsymbols/img29.png
-  /usr/share/apps/kile/mathsymbols/img290.png
-  /usr/share/apps/kile/mathsymbols/img291.png
-  /usr/share/apps/kile/mathsymbols/img292.png
-  /usr/share/apps/kile/mathsymbols/img293.png
-  /usr/share/apps/kile/mathsymbols/img294.png
-  /usr/share/apps/kile/mathsymbols/img295.png
-  /usr/share/apps/kile/mathsymbols/img296.png
-  /usr/share/apps/kile/mathsymbols/img297.png
-  /usr/share/apps/kile/mathsymbols/img298.png
-  /usr/share/apps/kile/mathsymbols/img299.png
-  /usr/share/apps/kile/mathsymbols/img29greek.png
-  /usr/share/apps/kile/mathsymbols/img29special.png
-  /usr/share/apps/kile/mathsymbols/img2greek.png
-  /usr/share/apps/kile/mathsymbols/img2special.png
-  /usr/share/apps/kile/mathsymbols/img3.png
-  /usr/share/apps/kile/mathsymbols/img30.png
-  /usr/share/apps/kile/mathsymbols/img300.png
-  /usr/share/apps/kile/mathsymbols/img301.png
-  /usr/share/apps/kile/mathsymbols/img302.png
-  /usr/share/apps/kile/mathsymbols/img303.png
-  /usr/share/apps/kile/mathsymbols/img304.png
-  /usr/share/apps/kile/mathsymbols/img305.png
-  /usr/share/apps/kile/mathsymbols/img306.png
-  /usr/share/apps/kile/mathsymbols/img307.png
-  /usr/share/apps/kile/mathsymbols/img308.png
-  /usr/share/apps/kile/mathsymbols/img309.png
-  /usr/share/apps/kile/mathsymbols/img30greek.png
-  /usr/share/apps/kile/mathsymbols/img30special.png
-  /usr/share/apps/kile/mathsymbols/img31.png
-  /usr/share/apps/kile/mathsymbols/img310.png
-  /usr/share/apps/kile/mathsymbols/img311.png
-  /usr/share/apps/kile/mathsymbols/img312.png
-  /usr/share/apps/kile/mathsymbols/img313.png
-  /usr/share/apps/kile/mathsymbols/img314.png
-  /usr/share/apps/kile/mathsymbols/img315.png
-  /usr/share/apps/kile/mathsymbols/img316.png
-  /usr/share/apps/kile/mathsymbols/img317.png
-  /usr/share/apps/kile/mathsymbols/img318.png
-  /usr/share/apps/kile/mathsymbols/img319.png
-  /usr/share/apps/kile/mathsymbols/img31greek.png
-  /usr/share/apps/kile/mathsymbols/img31special.png
-  /usr/share/apps/kile/mathsymbols/img32.png
-  /usr/share/apps/kile/mathsymbols/img320.png
-  /usr/share/apps/kile/mathsymbols/img321.png
-  /usr/share/apps/kile/mathsymbols/img322.png
-  /usr/share/apps/kile/mathsymbols/img323.png
-  /usr/share/apps/kile/mathsymbols/img324.png
-  /usr/share/apps/kile/mathsymbols/img325.png
-  /usr/share/apps/kile/mathsymbols/img326.png
-  /usr/share/apps/kile/mathsymbols/img327.png
-  /usr/share/apps/kile/mathsymbols/img328.png
-  /usr/share/apps/kile/mathsymbols/img329.png
-  /usr/share/apps/kile/mathsymbols/img32greek.png
-  /usr/share/apps/kile/mathsymbols/img32special.png
-  /usr/share/apps/kile/mathsymbols/img33.png
-  /usr/share/apps/kile/mathsymbols/img330.png
-  /usr/share/apps/kile/mathsymbols/img331.png
-  /usr/share/apps/kile/mathsymbols/img332.png
-  /usr/share/apps/kile/mathsymbols/img333.png
-  /usr/share/apps/kile/mathsymbols/img334.png
-  /usr/share/apps/kile/mathsymbols/img335.png
-  /usr/share/apps/kile/mathsymbols/img336.png
-  /usr/share/apps/kile/mathsymbols/img337.png
-  /usr/share/apps/kile/mathsymbols/img338.png
-  /usr/share/apps/kile/mathsymbols/img339.png
-  /usr/share/apps/kile/mathsymbols/img33greek.png
-  /usr/share/apps/kile/mathsymbols/img33special.png
-  /usr/share/apps/kile/mathsymbols/img34.png
-  /usr/share/apps/kile/mathsymbols/img340.png
-  /usr/share/apps/kile/mathsymbols/img341.png
-  /usr/share/apps/kile/mathsymbols/img343.png
-  /usr/share/apps/kile/mathsymbols/img344.png
-  /usr/share/apps/kile/mathsymbols/img345.png
-  /usr/share/apps/kile/mathsymbols/img346.png
-  /usr/share/apps/kile/mathsymbols/img347.png
-  /usr/share/apps/kile/mathsymbols/img348.png
-  /usr/share/apps/kile/mathsymbols/img349.png
-  /usr/share/apps/kile/mathsymbols/img34greek.png
-  /usr/share/apps/kile/mathsymbols/img34special.png
-  /usr/share/apps/kile/mathsymbols/img35.png
-  /usr/share/apps/kile/mathsymbols/img350.png
-  /usr/share/apps/kile/mathsymbols/img351.png
-  /usr/share/apps/kile/mathsymbols/img352.png
-  /usr/share/apps/kile/mathsymbols/img353.png
-  /usr/share/apps/kile/mathsymbols/img354.png
-  /usr/share/apps/kile/mathsymbols/img355.png
-  /usr/share/apps/kile/mathsymbols/img356.png
-  /usr/share/apps/kile/mathsymbols/img357.png
-  /usr/share/apps/kile/mathsymbols/img358.png
-  /usr/share/apps/kile/mathsymbols/img359.png
-  /usr/share/apps/kile/mathsymbols/img35greek.png
-  /usr/share/apps/kile/mathsymbols/img35special.png
-  /usr/share/apps/kile/mathsymbols/img36.png
-  /usr/share/apps/kile/mathsymbols/img360.png
-  /usr/share/apps/kile/mathsymbols/img361.png
-  /usr/share/apps/kile/mathsymbols/img362.png
-  /usr/share/apps/kile/mathsymbols/img363.png
-  /usr/share/apps/kile/mathsymbols/img364.png
-  /usr/share/apps/kile/mathsymbols/img365.png
-  /usr/share/apps/kile/mathsymbols/img366.png
-  /usr/share/apps/kile/mathsymbols/img367.png
-  /usr/share/apps/kile/mathsymbols/img368.png
-  /usr/share/apps/kile/mathsymbols/img369.png
-  /usr/share/apps/kile/mathsymbols/img36greek.png
-  /usr/share/apps/kile/mathsymbols/img36special.png
-  /usr/share/apps/kile/mathsymbols/img37.png
-  /usr/share/apps/kile/mathsymbols/img370.png
-  /usr/share/apps/kile/mathsymbols/img371.png
-  /usr/share/apps/kile/mathsymbols/img372.png
-  /usr/share/apps/kile/mathsymbols/img37greek.png
-  /usr/share/apps/kile/mathsymbols/img37special.png
-  /usr/share/apps/kile/mathsymbols/img38.png
-  /usr/share/apps/kile/mathsymbols/img38greek.png
-  /usr/share/apps/kile/mathsymbols/img38special.png
-  /usr/share/apps/kile/mathsymbols/img39.png
-  /usr/share/apps/kile/mathsymbols/img39greek.png
-  /usr/share/apps/kile/mathsymbols/img39special.png
-  /usr/share/apps/kile/mathsymbols/img3greek.png
-  /usr/share/apps/kile/mathsymbols/img3special.png
-  /usr/share/apps/kile/mathsymbols/img4.png
-  /usr/share/apps/kile/mathsymbols/img40.png
-  /usr/share/apps/kile/mathsymbols/img40greek.png
-  /usr/share/apps/kile/mathsymbols/img40special.png
-  /usr/share/apps/kile/mathsymbols/img41.png
-  /usr/share/apps/kile/mathsymbols/img41special.png
-  /usr/share/apps/kile/mathsymbols/img42.png
-  /usr/share/apps/kile/mathsymbols/img42special.png
-  /usr/share/apps/kile/mathsymbols/img43.png
-  /usr/share/apps/kile/mathsymbols/img434.png
-  /usr/share/apps/kile/mathsymbols/img435.png
-  /usr/share/apps/kile/mathsymbols/img436.png
-  /usr/share/apps/kile/mathsymbols/img437.png
-  /usr/share/apps/kile/mathsymbols/img438.png
-  /usr/share/apps/kile/mathsymbols/img439.png
-  /usr/share/apps/kile/mathsymbols/img43special.png
-  /usr/share/apps/kile/mathsymbols/img44.png
-  /usr/share/apps/kile/mathsymbols/img440.png
-  /usr/share/apps/kile/mathsymbols/img441.png
-  /usr/share/apps/kile/mathsymbols/img442.png
-  /usr/share/apps/kile/mathsymbols/img443.png
-  /usr/share/apps/kile/mathsymbols/img444.png
-  /usr/share/apps/kile/mathsymbols/img445.png
-  /usr/share/apps/kile/mathsymbols/img44special.png
-  /usr/share/apps/kile/mathsymbols/img45.png
-  /usr/share/apps/kile/mathsymbols/img45special.png
-  /usr/share/apps/kile/mathsymbols/img46.png
-  /usr/share/apps/kile/mathsymbols/img46special.png
-  /usr/share/apps/kile/mathsymbols/img47.png
-  /usr/share/apps/kile/mathsymbols/img47special.png
-  /usr/share/apps/kile/mathsymbols/img48.png
-  /usr/share/apps/kile/mathsymbols/img48special.png
-  /usr/share/apps/kile/mathsymbols/img49.png
-  /usr/share/apps/kile/mathsymbols/img49special.png
-  /usr/share/apps/kile/mathsymbols/img4greek.png
-  /usr/share/apps/kile/mathsymbols/img4special.png
-  /usr/share/apps/kile/mathsymbols/img5.png
-  /usr/share/apps/kile/mathsymbols/img50.png
-  /usr/share/apps/kile/mathsymbols/img50special.png
-  /usr/share/apps/kile/mathsymbols/img51.png
-  /usr/share/apps/kile/mathsymbols/img51special.png
-  /usr/share/apps/kile/mathsymbols/img52.png
-  /usr/share/apps/kile/mathsymbols/img52special.png
-  /usr/share/apps/kile/mathsymbols/img53.png
-  /usr/share/apps/kile/mathsymbols/img53special.png
-  /usr/share/apps/kile/mathsymbols/img54.png
-  /usr/share/apps/kile/mathsymbols/img54special.png
-  /usr/share/apps/kile/mathsymbols/img55.png
-  /usr/share/apps/kile/mathsymbols/img55special.png
-  /usr/share/apps/kile/mathsymbols/img56.png
-  /usr/share/apps/kile/mathsymbols/img56special.png
-  /usr/share/apps/kile/mathsymbols/img57.png
-  /usr/share/apps/kile/mathsymbols/img57special.png
-  /usr/share/apps/kile/mathsymbols/img58.png
-  /usr/share/apps/kile/mathsymbols/img58special.png
-  /usr/share/apps/kile/mathsymbols/img59.png
-  /usr/share/apps/kile/mathsymbols/img59special.png
-  /usr/share/apps/kile/mathsymbols/img5greek.png
-  /usr/share/apps/kile/mathsymbols/img5special.png
-  /usr/share/apps/kile/mathsymbols/img6.png
-  /usr/share/apps/kile/mathsymbols/img60.png
-  /usr/share/apps/kile/mathsymbols/img60special.png
-  /usr/share/apps/kile/mathsymbols/img61.png
-  /usr/share/apps/kile/mathsymbols/img61special.png
-  /usr/share/apps/kile/mathsymbols/img62.png
-  /usr/share/apps/kile/mathsymbols/img62special.png
-  /usr/share/apps/kile/mathsymbols/img63.png
-  /usr/share/apps/kile/mathsymbols/img63special.png
-  /usr/share/apps/kile/mathsymbols/img64.png
-  /usr/share/apps/kile/mathsymbols/img64special.png
-  /usr/share/apps/kile/mathsymbols/img65.png
-  /usr/share/apps/kile/mathsymbols/img65special.png
-  /usr/share/apps/kile/mathsymbols/img66.png
-  /usr/share/apps/kile/mathsymbols/img66special.png
-  /usr/share/apps/kile/mathsymbols/img67.png
-  /usr/share/apps/kile/mathsymbols/img67special.png
-  /usr/share/apps/kile/mathsymbols/img68.png
-  /usr/share/apps/kile/mathsymbols/img68special.png
-  /usr/share/apps/kile/mathsymbols/img69.png
-  /usr/share/apps/kile/mathsymbols/img69special.png
-  /usr/share/apps/kile/mathsymbols/img6greek.png
-  /usr/share/apps/kile/mathsymbols/img6special.png
-  /usr/share/apps/kile/mathsymbols/img7.png
-  /usr/share/apps/kile/mathsymbols/img70.png
-  /usr/share/apps/kile/mathsymbols/img70special.png
-  /usr/share/apps/kile/mathsymbols/img71.png
-  /usr/share/apps/kile/mathsymbols/img71special.png
-  /usr/share/apps/kile/mathsymbols/img72.png
-  /usr/share/apps/kile/mathsymbols/img72special.png
-  /usr/share/apps/kile/mathsymbols/img73.png
-  /usr/share/apps/kile/mathsymbols/img73special.png
-  /usr/share/apps/kile/mathsymbols/img74.png
-  /usr/share/apps/kile/mathsymbols/img74special.png
-  /usr/share/apps/kile/mathsymbols/img75.png
-  /usr/share/apps/kile/mathsymbols/img75special.png
-  /usr/share/apps/kile/mathsymbols/img76.png
-  /usr/share/apps/kile/mathsymbols/img76special.png
-  /usr/share/apps/kile/mathsymbols/img77.png
-  /usr/share/apps/kile/mathsymbols/img77special.png
-  /usr/share/apps/kile/mathsymbols/img78.png
-  /usr/share/apps/kile/mathsymbols/img78special.png
-  /usr/share/apps/kile/mathsymbols/img79.png
-  /usr/share/apps/kile/mathsymbols/img79special.png
-  /usr/share/apps/kile/mathsymbols/img7greek.png
-  /usr/share/apps/kile/mathsymbols/img7special.png
-  /usr/share/apps/kile/mathsymbols/img8.png
-  /usr/share/apps/kile/mathsymbols/img80.png
-  /usr/share/apps/kile/mathsymbols/img80special.png
-  /usr/share/apps/kile/mathsymbols/img81.png
-  /usr/share/apps/kile/mathsymbols/img81special.png
-  /usr/share/apps/kile/mathsymbols/img82.png
-  /usr/share/apps/kile/mathsymbols/img82special.png
-  /usr/share/apps/kile/mathsymbols/img83.png
-  /usr/share/apps/kile/mathsymbols/img83special.png
-  /usr/share/apps/kile/mathsymbols/img84.png
-  /usr/share/apps/kile/mathsymbols/img84special.png
-  /usr/share/apps/kile/mathsymbols/img85.png
-  /usr/share/apps/kile/mathsymbols/img85special.png
-  /usr/share/apps/kile/mathsymbols/img86.png
-  /usr/share/apps/kile/mathsymbols/img86special.png
-  /usr/share/apps/kile/mathsymbols/img87.png
-  /usr/share/apps/kile/mathsymbols/img87special.png
-  /usr/share/apps/kile/mathsymbols/img88.png
-  /usr/share/apps/kile/mathsymbols/img88special.png
-  /usr/share/apps/kile/mathsymbols/img89.png
-  /usr/share/apps/kile/mathsymbols/img89special.png
-  /usr/share/apps/kile/mathsymbols/img8greek.png
-  /usr/share/apps/kile/mathsymbols/img8special.png
-  /usr/share/apps/kile/mathsymbols/img9.png
-  /usr/share/apps/kile/mathsymbols/img90.png
-  /usr/share/apps/kile/mathsymbols/img90special.png
-  /usr/share/apps/kile/mathsymbols/img91.png
-  /usr/share/apps/kile/mathsymbols/img91special.png
-  /usr/share/apps/kile/mathsymbols/img92.png
-  /usr/share/apps/kile/mathsymbols/img92special.png
-  /usr/share/apps/kile/mathsymbols/img93.png
-  /usr/share/apps/kile/mathsymbols/img93special.png
-  /usr/share/apps/kile/mathsymbols/img94.png
-  /usr/share/apps/kile/mathsymbols/img94special.png
-  /usr/share/apps/kile/mathsymbols/img95.png
-  /usr/share/apps/kile/mathsymbols/img95special.png
-  /usr/share/apps/kile/mathsymbols/img96.png
-  /usr/share/apps/kile/mathsymbols/img96special.png
-  /usr/share/apps/kile/mathsymbols/img97.png
-  /usr/share/apps/kile/mathsymbols/img97special.png
-  /usr/share/apps/kile/mathsymbols/img98.png
-  /usr/share/apps/kile/mathsymbols/img98special.png
-  /usr/share/apps/kile/mathsymbols/img99.png
-  /usr/share/apps/kile/mathsymbols/img99special.png
-  /usr/share/apps/kile/mathsymbols/img9greek.png
-  /usr/share/apps/kile/mathsymbols/img9special.png
+  /usr/share/apps/kile/mathsymbols/arrows/img001arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img002arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img003arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img004arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img005arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img006arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img007arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img008arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img009arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img010arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img011arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img012arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img013arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img014arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img015arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img016arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img017arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img018arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img019arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img020arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img021arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img022arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img023arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img024arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img025arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img026arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img027arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img028arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img029arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img030arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img031arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img032arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img033arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img034arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img035arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img036arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img037arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img038arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img039arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img040arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img041arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img042arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img043arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img044arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img045arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img046arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img047arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img048arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img049arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img050arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img051arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img052arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img053arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img054arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img055arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img056arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img057arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img058arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img059arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img060arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img061arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img062arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img063arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img064arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img065arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img066arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img067arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img068arrows.png
+  /usr/share/apps/kile/mathsymbols/arrows/img069arrows.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img001cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img002cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img003cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img004cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img005cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img006cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img007cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img008cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img009cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img010cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img011cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img012cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img013cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img014cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img015cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img016cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img017cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img018cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img019cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img020cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img021cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img022cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img023cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img024cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img025cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img026cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img027cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img028cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img029cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img030cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img031cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img032cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img033cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img034cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img035cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img036cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img037cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img038cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img039cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img040cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img041cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img042cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img043cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img044cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img045cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img046cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img047cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img048cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img049cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img050cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img051cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img052cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img053cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img054cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img055cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img056cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img057cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img058cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img059cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img060cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img061cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img062cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img063cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img064cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img065cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img066cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img067cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img068cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img069cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img070cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img071cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img072cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img073cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img074cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img075cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img076cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img077cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img078cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img079cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img080cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img081cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img082cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img083cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img084cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img085cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img086cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img087cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img088cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img089cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img090cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img091cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img092cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img093cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img094cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img095cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img096cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img097cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img098cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img099cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img100cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img101cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img102cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img103cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img104cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img105cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img106cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img107cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img108cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img109cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img110cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img111cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img112cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img113cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img114cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img115cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img116cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img117cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img118cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img119cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img120cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img121cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img122cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img123cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img124cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img125cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img126cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img127cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img128cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img129cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img130cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img131cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img132cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img133cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img134cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img135cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img136cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img137cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img138cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img139cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img140cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img141cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img142cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img143cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img144cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img145cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img146cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img147cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img148cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img149cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img150cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img151cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img152cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img153cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img154cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img155cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img156cyrillic.png
+  /usr/share/apps/kile/mathsymbols/cyrillic/img157cyrillic.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img001delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img002delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img003delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img004delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img005delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img006delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img007delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img008delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img009delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img010delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img011delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img012delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img013delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img014delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img015delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img016delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img017delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img018delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img019delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img020delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img021delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img022delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img023delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img024delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img025delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img026delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img027delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img028delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img029delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img030delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img031delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img032delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img033delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img034delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img035delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img036delimiters.png
+  /usr/share/apps/kile/mathsymbols/delimiters/img037delimiters.png
+  /usr/share/apps/kile/mathsymbols/greek/img001greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img002greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img003greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img004greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img005greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img006greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img007greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img008greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img009greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img010greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img011greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img012greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img013greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img014greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img015greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img016greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img017greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img018greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img019greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img020greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img021greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img022greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img023greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img024greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img025greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img026greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img027greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img028greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img029greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img030greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img031greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img032greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img033greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img034greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img035greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img036greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img037greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img038greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img039greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img040greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img041greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img042greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img043greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img044greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img045greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img046greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img047greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img048greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img049greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img050greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img051greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img052greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img053greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img054greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img055greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img056greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img057greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img058greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img059greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img060greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img061greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img062greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img063greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img064greek.png
+  /usr/share/apps/kile/mathsymbols/greek/img065greek.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img001misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img002misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img003misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img004misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img005misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img006misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img007misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img008misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img009misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img010misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img011misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img012misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img013misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img014misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img015misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img016misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img017misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img018misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img019misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img020misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img021misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img022misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img023misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img024misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img025misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img026misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img027misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img028misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img029misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img030misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img031misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img032misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img033misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img034misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img035misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img036misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img037misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img038misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img039misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img040misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img041misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img042misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img043misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img044misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img045misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img046misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img047misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img048misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img049misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img050misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img051misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img052misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img053misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img054misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img055misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img056misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img057misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img058misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img059misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img060misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img061misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img062misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img063misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img064misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img065misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img066misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img067misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img068misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img069misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img070misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img071misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img072misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img073misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img074misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img075misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img076misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img077misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img078misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img079misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img080misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img081misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img082misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img083misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img084misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img085misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img086misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img087misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img088misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img089misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img090misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img091misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img092misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img093misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img094misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img095misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img096misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-math/img097misc-math.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img001misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img002misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img003misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img004misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img005misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img006misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img007misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img008misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img009misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img010misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img011misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img012misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img013misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img014misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img015misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img016misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img017misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img018misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img019misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img020misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img021misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img022misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img023misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img024misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img025misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img026misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img027misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img028misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img029misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img030misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img031misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img032misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img033misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img034misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img035misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img036misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img037misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img038misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img039misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img040misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img041misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img042misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img043misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img044misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img045misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img046misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img047misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img048misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img049misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img050misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img051misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img052misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img053misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img054misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img055misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img056misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img057misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img058misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img059misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img060misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img061misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img062misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img063misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img064misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img065misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img066misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img067misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img068misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img069misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img070misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img071misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img072misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img073misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img074misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img075misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img076misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img077misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img078misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img079misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img080misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img081misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img082misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img083misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img084misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img085misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img086misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img087misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img088misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img089misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img090misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img091misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img092misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img093misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img094misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img095misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img096misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img097misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img098misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img099misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img100misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img101misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img102misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img103misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img104misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img105misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img106misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img107misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img108misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img109misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img110misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img111misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img112misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img113misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img114misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img115misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img116misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img117misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img118misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img119misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img120misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img121misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img122misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img123misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img124misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img125misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img126misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img127misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img128misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img129misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img130misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img131misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img132misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img133misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img134misc-text.png
+  /usr/share/apps/kile/mathsymbols/misc-text/img135misc-text.png
+  /usr/share/apps/kile/mathsymbols/operators/img001operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img002operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img003operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img004operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img005operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img006operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img007operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img008operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img009operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img010operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img011operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img012operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img013operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img014operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img015operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img016operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img017operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img018operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img019operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img020operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img021operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img022operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img023operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img024operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img025operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img026operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img027operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img028operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img029operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img030operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img031operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img032operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img033operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img034operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img035operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img036operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img037operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img038operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img039operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img040operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img041operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img042operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img043operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img044operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img045operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img046operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img047operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img048operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img049operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img050operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img051operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img052operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img053operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img054operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img055operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img056operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img057operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img058operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img059operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img060operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img061operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img062operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img063operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img064operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img065operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img066operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img067operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img068operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img069operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img070operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img071operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img072operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img073operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img074operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img075operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img076operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img077operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img078operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img079operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img080operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img081operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img082operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img083operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img084operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img085operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img086operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img087operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img088operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img089operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img090operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img091operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img092operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img093operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img094operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img095operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img096operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img097operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img098operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img099operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img100operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img101operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img102operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img103operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img104operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img105operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img106operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img107operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img108operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img109operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img110operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img111operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img112operators.png
+  /usr/share/apps/kile/mathsymbols/operators/img113operators.png
+  /usr/share/apps/kile/mathsymbols/relation/img001relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img002relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img003relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img004relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img005relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img006relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img007relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img008relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img009relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img010relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img011relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img012relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img013relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img014relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img015relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img016relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img017relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img018relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img019relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img020relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img021relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img022relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img023relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img024relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img025relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img026relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img027relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img028relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img029relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img030relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img031relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img032relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img033relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img034relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img035relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img036relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img037relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img038relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img039relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img040relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img041relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img042relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img043relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img044relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img045relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img046relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img047relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img048relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img049relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img050relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img051relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img052relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img053relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img054relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img055relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img056relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img057relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img058relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img059relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img060relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img061relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img062relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img063relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img064relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img065relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img066relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img067relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img068relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img069relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img070relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img071relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img072relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img073relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img074relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img075relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img076relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img077relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img078relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img079relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img080relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img081relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img082relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img083relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img084relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img085relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img086relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img087relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img088relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img089relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img090relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img091relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img092relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img093relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img094relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img095relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img096relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img097relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img098relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img099relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img100relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img101relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img102relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img103relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img104relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img105relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img106relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img107relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img108relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img109relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img110relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img111relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img112relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img113relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img114relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img115relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img116relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img117relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img118relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img119relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img120relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img121relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img122relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img123relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img124relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img125relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img126relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img127relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img128relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img129relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img130relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img131relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img132relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img133relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img134relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img135relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img136relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img137relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img138relation.png
+  /usr/share/apps/kile/mathsymbols/relation/img139relation.png
+  /usr/share/apps/kile/mathsymbols/special/img001special.png
+  /usr/share/apps/kile/mathsymbols/special/img002special.png
+  /usr/share/apps/kile/mathsymbols/special/img003special.png
+  /usr/share/apps/kile/mathsymbols/special/img004special.png
+  /usr/share/apps/kile/mathsymbols/special/img005special.png
+  /usr/share/apps/kile/mathsymbols/special/img006special.png
+  /usr/share/apps/kile/mathsymbols/special/img007special.png
+  /usr/share/apps/kile/mathsymbols/special/img008special.png
+  /usr/share/apps/kile/mathsymbols/special/img009special.png
+  /usr/share/apps/kile/mathsymbols/special/img010special.png
+  /usr/share/apps/kile/mathsymbols/special/img011special.png
+  /usr/share/apps/kile/mathsymbols/special/img012special.png
+  /usr/share/apps/kile/mathsymbols/special/img013special.png
+  /usr/share/apps/kile/mathsymbols/special/img014special.png
+  /usr/share/apps/kile/mathsymbols/special/img015special.png
+  /usr/share/apps/kile/mathsymbols/special/img016special.png
+  /usr/share/apps/kile/mathsymbols/special/img017special.png
+  /usr/share/apps/kile/mathsymbols/special/img018special.png
+  /usr/share/apps/kile/mathsymbols/special/img019special.png
+  /usr/share/apps/kile/mathsymbols/special/img020special.png
+  /usr/share/apps/kile/mathsymbols/special/img021special.png
+  /usr/share/apps/kile/mathsymbols/special/img022special.png
+  /usr/share/apps/kile/mathsymbols/special/img023special.png
+  /usr/share/apps/kile/mathsymbols/special/img024special.png
+  /usr/share/apps/kile/mathsymbols/special/img025special.png
+  /usr/share/apps/kile/mathsymbols/special/img026special.png
+  /usr/share/apps/kile/mathsymbols/special/img027special.png
+  /usr/share/apps/kile/mathsymbols/special/img028special.png
+  /usr/share/apps/kile/mathsymbols/special/img029special.png
+  /usr/share/apps/kile/mathsymbols/special/img030special.png
+  /usr/share/apps/kile/mathsymbols/special/img031special.png
+  /usr/share/apps/kile/mathsymbols/special/img032special.png
+  /usr/share/apps/kile/mathsymbols/special/img033special.png
+  /usr/share/apps/kile/mathsymbols/special/img034special.png
+  /usr/share/apps/kile/mathsymbols/special/img035special.png
+  /usr/share/apps/kile/mathsymbols/special/img036special.png
+  /usr/share/apps/kile/mathsymbols/special/img037special.png
+  /usr/share/apps/kile/mathsymbols/special/img038special.png
+  /usr/share/apps/kile/mathsymbols/special/img039special.png
+  /usr/share/apps/kile/mathsymbols/special/img040special.png
+  /usr/share/apps/kile/mathsymbols/special/img041special.png
+  /usr/share/apps/kile/mathsymbols/special/img042special.png
+  /usr/share/apps/kile/mathsymbols/special/img043special.png
+  /usr/share/apps/kile/mathsymbols/special/img044special.png
+  /usr/share/apps/kile/mathsymbols/special/img045special.png
+  /usr/share/apps/kile/mathsymbols/special/img046special.png
+  /usr/share/apps/kile/mathsymbols/special/img047special.png
+  /usr/share/apps/kile/mathsymbols/special/img048special.png
+  /usr/share/apps/kile/mathsymbols/special/img049special.png
+  /usr/share/apps/kile/mathsymbols/special/img050special.png
+  /usr/share/apps/kile/mathsymbols/special/img051special.png
+  /usr/share/apps/kile/mathsymbols/special/img052special.png
+  /usr/share/apps/kile/mathsymbols/special/img053special.png
+  /usr/share/apps/kile/mathsymbols/special/img054special.png
+  /usr/share/apps/kile/mathsymbols/special/img055special.png
+  /usr/share/apps/kile/mathsymbols/special/img056special.png
+  /usr/share/apps/kile/mathsymbols/special/img057special.png
+  /usr/share/apps/kile/mathsymbols/special/img058special.png
+  /usr/share/apps/kile/mathsymbols/special/img059special.png
+  /usr/share/apps/kile/mathsymbols/special/img060special.png
+  /usr/share/apps/kile/mathsymbols/special/img061special.png
+  /usr/share/apps/kile/mathsymbols/special/img062special.png
+  /usr/share/apps/kile/mathsymbols/special/img063special.png
+  /usr/share/apps/kile/mathsymbols/special/img064special.png
+  /usr/share/apps/kile/mathsymbols/special/img065special.png
+  /usr/share/apps/kile/mathsymbols/special/img066special.png
+  /usr/share/apps/kile/mathsymbols/special/img067special.png
+  /usr/share/apps/kile/mathsymbols/special/img068special.png
+  /usr/share/apps/kile/mathsymbols/special/img069special.png
+  /usr/share/apps/kile/mathsymbols/special/img070special.png
+  /usr/share/apps/kile/mathsymbols/special/img071special.png
+  /usr/share/apps/kile/mathsymbols/special/img072special.png
+  /usr/share/apps/kile/mathsymbols/special/img073special.png
+  /usr/share/apps/kile/mathsymbols/special/img074special.png
+  /usr/share/apps/kile/mathsymbols/special/img075special.png
+  /usr/share/apps/kile/mathsymbols/special/img076special.png
+  /usr/share/apps/kile/mathsymbols/special/img077special.png
+  /usr/share/apps/kile/mathsymbols/special/img078special.png
+  /usr/share/apps/kile/mathsymbols/special/img079special.png
+  /usr/share/apps/kile/mathsymbols/special/img080special.png
+  /usr/share/apps/kile/mathsymbols/special/img081special.png
+  /usr/share/apps/kile/mathsymbols/special/img082special.png
+  /usr/share/apps/kile/mathsymbols/special/img083special.png
+  /usr/share/apps/kile/mathsymbols/special/img084special.png
+  /usr/share/apps/kile/mathsymbols/special/img085special.png
+  /usr/share/apps/kile/mathsymbols/special/img086special.png
+  /usr/share/apps/kile/mathsymbols/special/img087special.png
+  /usr/share/apps/kile/mathsymbols/special/img088special.png
+  /usr/share/apps/kile/mathsymbols/special/img089special.png
+  /usr/share/apps/kile/mathsymbols/special/img090special.png
+  /usr/share/apps/kile/mathsymbols/special/img091special.png
+  /usr/share/apps/kile/mathsymbols/special/img092special.png
+  /usr/share/apps/kile/mathsymbols/special/img093special.png
+  /usr/share/apps/kile/mathsymbols/special/img094special.png
+  /usr/share/apps/kile/mathsymbols/special/img095special.png
+  /usr/share/apps/kile/mathsymbols/special/img096special.png
+  /usr/share/apps/kile/mathsymbols/special/img097special.png
+  /usr/share/apps/kile/mathsymbols/special/img098special.png
+  /usr/share/apps/kile/mathsymbols/special/img099special.png
+  /usr/share/apps/kile/mathsymbols/special/img100special.png
+  /usr/share/apps/kile/mathsymbols/special/img101special.png
+  /usr/share/apps/kile/mathsymbols/special/img102special.png
+  /usr/share/apps/kile/mathsymbols/special/img103special.png
+  /usr/share/apps/kile/mathsymbols/special/img104special.png
+  /usr/share/apps/kile/mathsymbols/special/img105special.png
+  /usr/share/apps/kile/mathsymbols/special/img106special.png
+  /usr/share/apps/kile/mathsymbols/special/img107special.png
+  /usr/share/apps/kile/mathsymbols/special/img108special.png
+  /usr/share/apps/kile/mathsymbols/special/img109special.png
+  /usr/share/apps/kile/mathsymbols/special/img110special.png
+  /usr/share/apps/kile/mathsymbols/special/img111special.png
+  /usr/share/apps/kile/mathsymbols/special/img112special.png
+  /usr/share/apps/kile/mathsymbols/special/img113special.png
+  /usr/share/apps/kile/mathsymbols/special/img114special.png
+  /usr/share/apps/kile/mathsymbols/special/img115special.png
+  /usr/share/apps/kile/mathsymbols/special/img116special.png
+  /usr/share/apps/kile/mathsymbols/special/img117special.png
+  /usr/share/apps/kile/mathsymbols/special/img118special.png
+  /usr/share/apps/kile/mathsymbols/special/img119special.png
+  /usr/share/apps/kile/mathsymbols/special/img120special.png
+  /usr/share/apps/kile/mathsymbols/special/img121special.png
+  /usr/share/apps/kile/mathsymbols/special/img122special.png
+  /usr/share/apps/kile/mathsymbols/special/img123special.png
+  /usr/share/apps/kile/mathsymbols/special/img124special.png
+  /usr/share/apps/kile/mathsymbols/special/img125special.png
+  /usr/share/apps/kile/mathsymbols/special/img126special.png
+  /usr/share/apps/kile/mathsymbols/special/img127special.png
+  /usr/share/apps/kile/mathsymbols/special/img128special.png
+  /usr/share/apps/kile/mathsymbols/special/img129special.png
+  /usr/share/apps/kile/mathsymbols/special/img130special.png
+  /usr/share/apps/kile/mathsymbols/special/img131special.png
+  /usr/share/apps/kile/mathsymbols/special/img132special.png
+  /usr/share/apps/kile/mathsymbols/special/img133special.png
+  /usr/share/apps/kile/mathsymbols/special/img134special.png
+  /usr/share/apps/kile/mathsymbols/special/img135special.png
+  /usr/share/apps/kile/mathsymbols/special/img136special.png
+  /usr/share/apps/kile/mathsymbols/special/img137special.png
+  /usr/share/apps/kile/mathsymbols/special/img138special.png
+  /usr/share/apps/kile/mathsymbols/special/img139special.png
+  /usr/share/apps/kile/mathsymbols/special/img140special.png
+  /usr/share/apps/kile/mathsymbols/special/img141special.png
+  /usr/share/apps/kile/mathsymbols/special/img142special.png
+  /usr/share/apps/kile/mathsymbols/special/img143special.png
+  /usr/share/apps/kile/mathsymbols/special/img144special.png
+  /usr/share/apps/kile/mathsymbols/special/img145special.png
+  /usr/share/apps/kile/mathsymbols/special/img146special.png
+  /usr/share/apps/kile/mathsymbols/special/img147special.png
+  /usr/share/apps/kile/mathsymbols/special/img148special.png
+  /usr/share/apps/kile/mathsymbols/special/img149special.png
+  /usr/share/apps/kile/mathsymbols/special/img150special.png
+  /usr/share/apps/kile/mathsymbols/special/img151special.png
+  /usr/share/apps/kile/mathsymbols/special/img152special.png
+  /usr/share/apps/kile/mathsymbols/special/img153special.png
+  /usr/share/apps/kile/mathsymbols/special/img154special.png
+  /usr/share/apps/kile/mathsymbols/special/img155special.png
+  /usr/share/apps/kile/mathsymbols/special/img156special.png
+  /usr/share/apps/kile/mathsymbols/special/img157special.png
+  /usr/share/apps/kile/mathsymbols/special/img158special.png
+  /usr/share/apps/kile/mathsymbols/special/img159special.png
+  /usr/share/apps/kile/mathsymbols/special/img160special.png
+  /usr/share/apps/kile/mathsymbols/special/img161special.png
+  /usr/share/apps/kile/mathsymbols/special/img162special.png
+  /usr/share/apps/kile/mathsymbols/special/img163special.png
+  /usr/share/apps/kile/mathsymbols/special/img164special.png
+  /usr/share/apps/kile/mathsymbols/special/img165special.png
+  /usr/share/apps/kile/mathsymbols/special/img166special.png
+  /usr/share/apps/kile/mathsymbols/special/img167special.png
+  /usr/share/apps/kile/mathsymbols/special/img168special.png
+  /usr/share/apps/kile/mathsymbols/special/img169special.png
+  /usr/share/apps/kile/mathsymbols/special/img170special.png
+  /usr/share/apps/kile/mathsymbols/special/img171special.png
+  /usr/share/apps/kile/mathsymbols/special/img172special.png
+  /usr/share/apps/kile/mathsymbols/special/img173special.png
+  /usr/share/apps/kile/mathsymbols/special/img174special.png
+  /usr/share/apps/kile/mathsymbols/special/img175special.png
   /usr/share/apps/kile/pics/kile_splash.png
-  /usr/share/apps/kile/pics/type_Article.png
-  /usr/share/apps/kile/pics/type_Beamer.png
-  /usr/share/apps/kile/pics/type_Book.png
+  /usr/share/apps/kile/pics/type_Article.tex.kileicon
+  /usr/share/apps/kile/pics/type_Beamer.tex.kileicon
+  /usr/share/apps/kile/pics/type_Book.tex.kileicon
   /usr/share/apps/kile/pics/type_Default.png
   /usr/share/apps/kile/pics/type_Empty.png
-  /usr/share/apps/kile/pics/type_HA-prosper.png
-  /usr/share/apps/kile/pics/type_Letter.png
+  /usr/share/apps/kile/pics/type_HA-prosper.tex.kileicon
+  /usr/share/apps/kile/pics/type_Letter.tex.kileicon
   /usr/share/apps/kile/pics/type_Project.png
-  /usr/share/apps/kile/pics/type_Prosper.png
-  /usr/share/apps/kile/pics/type_Report.png
-  /usr/share/apps/kile/pics/type_Scrartcl.png
-  /usr/share/apps/kile/pics/type_Scrbook.png
-  /usr/share/apps/kile/pics/type_Scrlttr2.png
-  /usr/share/apps/kile/pics/type_Scrreprt.png
+  /usr/share/apps/kile/pics/type_Prosper.tex.kileicon
+  /usr/share/apps/kile/pics/type_Report.tex.kileicon
+  /usr/share/apps/kile/pics/type_Scrartcl.tex.kileicon
+  /usr/share/apps/kile/pics/type_Scrbook.tex.kileicon
+  /usr/share/apps/kile/pics/type_Scrlttr2.tex.kileicon
+  /usr/share/apps/kile/pics/type_Scrreprt.tex.kileicon
   /usr/share/apps/kile/templates/template_Article.tex
   /usr/share/apps/kile/templates/template_Beamer.tex
   /usr/share/apps/kile/templates/template_Book.tex
@@ -892,21 +1376,20 @@ Files included in the binary package:
   /usr/share/apps/kile/test/test_plain.tex
   /usr/share/apps/kile/tips
   /usr/share/config.kcfg/kile.kcfg
-  /usr/share/doc/Cygwin/kile-1.9.3.README
   /usr/share/doc/HTML/da/kile/common
   /usr/share/doc/HTML/da/kile/index.cache.bz2
   /usr/share/doc/HTML/da/kile/index.docbook
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/doxygen.css
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/doxygen.png
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/favicon.ico
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/index.html
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/installdox-slow
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/kde_gear_64.png
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/subdirs
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/tab_b.gif
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/tab_l.gif
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/tab_r.gif
-  /usr/share/doc/HTML/en/kile-1.9.3-apidocs/tabs.css
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/doxygen.css
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/doxygen.png
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/favicon.ico
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/index.html
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/installdox-slow
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/kde_gear_64.png
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/subdirs
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/tab_b.gif
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/tab_l.gif
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/tab_r.gif
+  /usr/share/doc/HTML/en/kile-2.0-apidocs/tabs.css
   /usr/share/doc/HTML/en/kile/TODO
   /usr/share/doc/HTML/en/kile/bullets.png
   /usr/share/doc/HTML/en/kile/common
@@ -929,6 +1412,7 @@ Files included in the binary package:
   /usr/share/doc/HTML/en/kile/includegraphics.png
   /usr/share/doc/HTML/en/kile/index.cache.bz2
   /usr/share/doc/HTML/en/kile/index.docbook
+  /usr/share/doc/HTML/en/kile/latex_example.png
   /usr/share/doc/HTML/en/kile/latexhelp.html
   /usr/share/doc/HTML/en/kile/psutils1.png
   /usr/share/doc/HTML/en/kile/psutils15.png
@@ -1040,6 +1524,7 @@ Files included in the binary package:
   /usr/share/doc/HTML/sv/kile/includegraphics.png
   /usr/share/doc/HTML/sv/kile/index.cache.bz2
   /usr/share/doc/HTML/sv/kile/index.docbook
+  /usr/share/doc/HTML/sv/kile/latex_example.png
   /usr/share/doc/HTML/sv/kile/quickpreview.png
   /usr/share/doc/HTML/sv/kile/select.png
   /usr/share/doc/HTML/sv/kile/snap_autocomplete.png
@@ -1055,12 +1540,11 @@ Files included in the binary package:
   /usr/share/doc/HTML/sv/kile/snap_structview_label.png
   /usr/share/doc/HTML/sv/kile/snap_usertag.png
   /usr/share/doc/HTML/sv/kile/texgroup.png
-  /usr/share/doc/kile-1.9.3/AUTHORS
-  /usr/share/doc/kile-1.9.3/COPYING
-  /usr/share/doc/kile-1.9.3/ChangeLog
-  /usr/share/doc/kile-1.9.3/INSTALL
-  /usr/share/doc/kile-1.9.3/README
-  /usr/share/doc/kile-1.9.3/TODO
+  /usr/share/doc/kile-2.0/AUTHORS
+  /usr/share/doc/kile-2.0/COPYING
+  /usr/share/doc/kile-2.0/ChangeLog
+  /usr/share/doc/kile-2.0/README
+  /usr/share/doc/kile-2.0/TODO
   /usr/share/icons/hicolor/128x128/apps/kile.png
   /usr/share/icons/hicolor/16x16/apps/kile.png
   /usr/share/icons/hicolor/22x22/apps/kile.png
@@ -1068,6 +1552,8 @@ Files included in the binary package:
   /usr/share/icons/hicolor/48x48/apps/kile.png
   /usr/share/icons/hicolor/64x64/apps/kile.png
   /usr/share/icons/hicolor/scalable/apps/kile.svgz
+  /usr/share/locale/ar/LC_MESSAGES/kile.mo
+  /usr/share/locale/bg/LC_MESSAGES/kile.mo
   /usr/share/locale/br/LC_MESSAGES/kile.mo
   /usr/share/locale/ca/LC_MESSAGES/kile.mo
   /usr/share/locale/cs/LC_MESSAGES/kile.mo
@@ -1089,8 +1575,10 @@ Files included in the binary package:
   /usr/share/locale/it/LC_MESSAGES/kile.mo
   /usr/share/locale/ja/LC_MESSAGES/kile.mo
   /usr/share/locale/lt/LC_MESSAGES/kile.mo
+  /usr/share/locale/ms/LC_MESSAGES/kile.mo
   /usr/share/locale/mt/LC_MESSAGES/kile.mo
   /usr/share/locale/nb/LC_MESSAGES/kile.mo
+  /usr/share/locale/nds/LC_MESSAGES/kile.mo
   /usr/share/locale/nl/LC_MESSAGES/kile.mo
   /usr/share/locale/nn/LC_MESSAGES/kile.mo
   /usr/share/locale/pa/LC_MESSAGES/kile.mo
@@ -1105,6 +1593,7 @@ Files included in the binary package:
   /usr/share/locale/sr@Latn/LC_MESSAGES/kile.mo
   /usr/share/locale/sv/LC_MESSAGES/kile.mo
   /usr/share/locale/ta/LC_MESSAGES/kile.mo
+  /usr/share/locale/th/LC_MESSAGES/kile.mo
   /usr/share/locale/tr/LC_MESSAGES/kile.mo
   /usr/share/locale/uk/LC_MESSAGES/kile.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/kile.mo
@@ -1113,6 +1602,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.0-1 -----
+Version bump.
 
 ----- version 1.9.3-1 -----
 Initial release for Cygwin.
