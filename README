@@ -4,22 +4,21 @@ Kile is a user friendly TeX/LaTeX editor for the KDE desktop
 environment.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  kdelibs4-3.5.8-1
+  cygwin-1.5.25-11
+  kdelibs4-3.5.9-1
   qt3-3.3.8-4
   tetex
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10.1-1
   binutils-20060817-1
-  cygport-0.3.7-1
-  gawk-3.1.5-4
+  cygport-0.3.10-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
-  libtool1.5-1.5.23a-2
+  libtool-2.2.2-2
   make-3.81-1
   pkg-config-0.21-1
   sed-4.1.5-2
@@ -33,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack kile-2.0-X-src.tar.bz2
+  unpack kile-2.0.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kile-2.0-X.cygport all
+  cygport ./kile-2.0.1-X.cygport all
 
 This will create:
-  /usr/src/kile-2.0-X-src.tar.bz2
-  /usr/src/kile-2.0-X.tar.bz2
+  /usr/src/kile-2.0.1-X-src.tar.bz2
+  /usr/src/kile-2.0.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -95,12 +94,12 @@ Files included in the binary package:
   /usr/share/apps/kile/complete/tex/enumerate.cwl
   /usr/share/apps/kile/complete/tex/fancybox.cwl
   /usr/share/apps/kile/complete/tex/fancyhdr.cwl
-  /usr/share/apps/kile/complete/tex/fancyunits-UF.cwl
-  /usr/share/apps/kile/complete/tex/fancyunits-Uf.cwl
   /usr/share/apps/kile/complete/tex/fancyunits-base.cwl
   /usr/share/apps/kile/complete/tex/fancyunits-np.cwl
   /usr/share/apps/kile/complete/tex/fancyunits-per.cwl
-  /usr/share/apps/kile/complete/tex/fancyunits-uf.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits_big-fractions.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits_medium-fractions.cwl
+  /usr/share/apps/kile/complete/tex/fancyunits_small-fractions.cwl
   /usr/share/apps/kile/complete/tex/fancyvrb.cwl
   /usr/share/apps/kile/complete/tex/fontspec.cwl
   /usr/share/apps/kile/complete/tex/graphicx.cwl
@@ -1379,17 +1378,17 @@ Files included in the binary package:
   /usr/share/doc/HTML/da/kile/common
   /usr/share/doc/HTML/da/kile/index.cache.bz2
   /usr/share/doc/HTML/da/kile/index.docbook
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/doxygen.css
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/doxygen.png
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/favicon.ico
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/index.html
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/installdox-slow
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/kde_gear_64.png
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/subdirs
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/tab_b.gif
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/tab_l.gif
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/tab_r.gif
-  /usr/share/doc/HTML/en/kile-2.0-apidocs/tabs.css
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/doxygen.css
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/doxygen.png
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/favicon.ico
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/index.html
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/installdox-slow
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/kde_gear_64.png
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/subdirs
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/tab_b.gif
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/tab_l.gif
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/tab_r.gif
+  /usr/share/doc/HTML/en/kile-2.0.1-apidocs/tabs.css
   /usr/share/doc/HTML/en/kile/TODO
   /usr/share/doc/HTML/en/kile/bullets.png
   /usr/share/doc/HTML/en/kile/common
@@ -1540,11 +1539,11 @@ Files included in the binary package:
   /usr/share/doc/HTML/sv/kile/snap_structview_label.png
   /usr/share/doc/HTML/sv/kile/snap_usertag.png
   /usr/share/doc/HTML/sv/kile/texgroup.png
-  /usr/share/doc/kile-2.0/AUTHORS
-  /usr/share/doc/kile-2.0/COPYING
-  /usr/share/doc/kile-2.0/ChangeLog
-  /usr/share/doc/kile-2.0/README
-  /usr/share/doc/kile-2.0/TODO
+  /usr/share/doc/kile-2.0.1/AUTHORS
+  /usr/share/doc/kile-2.0.1/COPYING
+  /usr/share/doc/kile-2.0.1/ChangeLog
+  /usr/share/doc/kile-2.0.1/README
+  /usr/share/doc/kile-2.0.1/TODO
   /usr/share/icons/hicolor/128x128/apps/kile.png
   /usr/share/icons/hicolor/16x16/apps/kile.png
   /usr/share/icons/hicolor/22x22/apps/kile.png
@@ -1602,6 +1601,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.0.1-1 -----
+Version bump.
 
 ----- version 2.0-1 -----
 Version bump.
