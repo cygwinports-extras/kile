@@ -1,5 +1,5 @@
 category: KDE Editors
-requires: cygwin kdelibs4 qt3 tetex
+requires: cygwin kdelibs4 libqt3 tetex
 sdesc: "KDE TeX editor"
 ldesc: "Kile is a user friendly TeX/LaTeX editor for the KDE desktop 
 environment."
