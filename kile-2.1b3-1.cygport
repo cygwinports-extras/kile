@@ -1,7 +1,5 @@
-inherit kde3
+inherit kde4
 
 DESCRIPTION="KDE LaTeX source editor"
 HOMEPAGE="http://kile.sourceforge.net/"
 SRC_URI="mirror://sourceforge/kile/${P}.tar.bz2"
-
-#DIFF_EXCLUDES="Makefile"
