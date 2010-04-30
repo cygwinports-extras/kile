@@ -4,12 +4,12 @@ Kile is a user friendly TeX/LaTeX editor for the KDE desktop
 environment.
 
 Runtime requirements:
-  cygwin-1.7.1-1
+  cygwin-1.7.5-1
   libgcc1-4.3.4-3
-  libkdecore5-4.3.4-1
-  libQtCore4-4.5.3-2
-  libQtDBus4-4.5.3-2
-  libQtGui4-4.5.3-2
+  libkdecore5-4.4.2-1
+  libQtCore4-4.6.2-1
+  libQtDBus4-4.6.2-1
+  libQtGui4-4.6.2-1
   libstdc++6-4.3.4-3
   dblatex
   ghostscript
@@ -20,9 +20,9 @@ Runtime requirements:
 Build requirements:
 (besides corresponding -devel packages)
   automoc4-0.9.88-10
-  binutils-2.19.51-1
+  binutils-2.20.51-1
   cmake-2.8.0-11
-  cygport-0.9.10-1
+  cygport-0.9.83-1
   gcc4-core-4.3.4-3
   gcc4-g++-4.3.4-3
   make-3.81-1
@@ -36,19 +36,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack kile-2.1b3-X-src.tar.bz2
+  unpack kile-2.1b4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kile-2.1b3-X.cygport all
+  cygport ./kile-2.1b4-X.cygport all
 
 This will create:
-  /usr/src/kile-2.1b3-X-src.tar.bz2
-  /usr/src/kile-2.1b3-X.tar.bz2
+  /usr/src/kile-2.1b4-X-src.tar.bz2
+  /usr/src/kile-2.1b4-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 2.1b4-1 -----
+Version bump.
 
 ----- version 2.1b3-1 -----
 Initial release for Cygwin 1.7.
