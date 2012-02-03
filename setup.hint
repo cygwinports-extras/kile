@@ -1,5 +1,5 @@
 category: KDE Editors
-requires: libgcc1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libstdc++6 dblatex ghostscript ImageMagick okular tetex
+requires: libgcc1 libkdecore5 libQtCore4 libQtDBus4 libQtGui4 libstdc++6 dblatex ghostscript ImageMagick okular texlive-collection-latexrecommended
 sdesc: "KDE TeX editor"
 ldesc: "Kile is a user friendly TeX/LaTeX editor for the KDE desktop 
 environment."
