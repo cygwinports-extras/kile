@@ -7,6 +7,6 @@ CATEGORY="Editors"
 SUMMARY="KDE TeX editor"
 DESCRIPTION="Kile is a user friendly TeX/LaTeX editor for the KDE desktop
 environment."
-REQUIRES="dblatex ghostscript ImageMagick okular texlive-collection-latexrecommended"
+REQUIRES="dblatex ghostscript ImageMagick kate4-part okular texlive-collection-latexrecommended"
 HOMEPAGE="http://kile.sourceforge.net/"
 SRC_URI="mirror://sourceforge/kile/kile-${VERSION}.tar.bz2"
